@@ -1,0 +1,522 @@
+* {
+     margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6f1f2;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.upak {
+    justify-content: center;
+    align-items: center;
+}
+
+.leftmain{
+    width: 185px;
+    height: 2950px;
+    background-color: 2red;
+    justify-content: center;
+    position: absolute;
+}
+
+.img1 {
+    width: 150px;
+}
+
+#leftitem {
+     margin-left: 10px;
+}
+
+.maina {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.leftmaina {
+    text-decoration: none;
+    font-size: 1.9em;
+    align-content: center;
+    margin-left: -5px;
+    transition: color 0.4s linear;
+}
+
+.title1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-left: -23px;
+    text-align: center;
+    font-size: 1.5em;
+    color: darkviolet;
+    text-decoration: none;
+}
+
+.leftmaina:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+#lis {
+    margin-top: 10px;
+    font-size: 1.75em;
+}
+
+.leftmaintext{
+    margin-top: 500px;
+}
+
+
+.logotype1 {
+    width: 300px;
+    position: absolute;
+    margin-left: 915px;
+    margin-top: 200px;
+    z-index: 3;
+    border-style: double;
+    border-radius: 10px;
+}
+
+.logotypetextabove {
+    position: absolute;
+    z-index: 3;
+    margin-left: 960px;
+    margin-top: 175px;
+}
+
+
+
+
+
+
+
+   /*   Main Main    */
+
+
+
+
+.pravodolya {
+    position: absolute;
+    width: 300px;
+    height: 1025px;
+    background-color: 2red;
+    margin-left: 925px;
+    z-index: 4;
+    margin-top: 180px;
+    border-style: double;
+}
+
+.logoq2 {
+    width: 280px;
+}
+
+.logoq1 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logoq1text {
+    margin-top: 15px;
+    margin-left: 55px;
+}
+
+.podpic2 {
+    width: 270px;
+    border-style: double;
+}
+
+.podpic1 {
+    margin-left: 15px;
+    margin-top: 20px;
+/*    width: 300px*/
+}
+
+.podpictext {
+    margin-left: 75px;
+    margin-bottom: 15px;
+}
+
+.russia{
+    position: absolute;
+    width: 15px;
+    margin-top: 888px;
+    margin-left: 1056px;
+}
+
+
+
+
+.mainb {
+    margin-left: 190px;
+    width: 1050px;
+    height: 2650px;
+    background-color: white;
+    position: absolute;
+    margin-top: 75px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+
+.mainbtext {
+    
+}
+
+#mainbtitle {
+    margin-left: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+#mainbtitle::before {
+    content: "*  ";
+    color: darkviolet;
+}
+
+hr {
+    width: 80%;
+    margin-left: 105px;
+}
+
+.header {
+    position: absolute;
+    margin-left: 765px;
+    margin-top: 27px;
+    justify-content: space-between;
+}
+
+.headerlogot {
+    width: 25px;
+}
+
+.headerlogo {
+    position: absolute;
+    margin-left: -35px;
+}
+
+#redvesh::after {
+  content: " *";
+  color: red;
+}
+
+#pravotext {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -19px;
+    width: 200px;
+    text-decoration: none;
+}
+
+#pravotext::after {
+    content: "!!";
+    color: red;
+}
+
+#pravotext::before {
+    content: "!!";
+    color: red;
+}
+
+.mainbtext1 {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#qqq::before {
+    content: "*** ";
+    color: red;
+}
+
+.mainbtext2 {
+    margin-left: 25px;
+    color: brown;
+}
+
+.mainbtext2::before {
+    content: "* ";
+    color: green;
+}
+
+.colro {
+    color: darkgoldenrod;
+}
+
+.colro1 {
+    color: darkorchid;
+    text-decoration: none;
+    transition: color 0.5s linear;
+    
+}
+
+.colro1:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.colro1::before {
+    content: "* ";
+    color: green;
+}
+
+.colro1::after {
+    content: " *";
+    color: green;
+}
+
+.p1 {
+    text-decoration: underline;
+    color: blue;
+}
+
+.rasskazi {
+    color: black;
+    transition: color 0.5s linear;
+    cursor: zoom-in;
+}
+
+.rasskazi:hover {
+    color: blue;
+}
+
+#termins {
+    color: blue;
+    transition: color 0.4s linear;
+}
+
+#termins:hover{
+    color: green;
+}
+
+
+
+/*    Clock Place    */
+
+
+
+
+
+
+
+.clockplace {
+    position: absolute;
+    width: 250px;
+    height: 125px;
+    margin-left: 300px;
+    margin-top: -25px;
+    z-index: -1;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    margin-top: 37.5px;
+    margin-left: 35px;
+    height: 50px;
+    width: 180px;
+    position: relative;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 10px;
+    cursor: default;
+    animation: animate 1.5s linear infinite;
+}
+
+.wrapper .display, 
+.wrapper span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper .display {
+    z-index: 999;
+    height: 42.5px;
+    width: 172.5px;
+    background: #1b1b1b;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.display #time {
+    line-height: 42.5px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #14ffe9, #ddeb3b, #ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 1.5s linear infinitive;
+}
+
+@keyframes animate {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.wrapper span {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: inherit;
+}
+
+.wrapper span:first-child {
+    filter: blur(7px);
+}
+
+.wrapper span:last-child {
+    filter: blur(20px);
+}
+
+
+
+
+/*    New Stroka    */
+
+.blocka {
+    justify-content: space-between;
+    display: flex;
+    font-size: 14px;
+}
+
+#textleft {
+    margin-left: 7px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.leftblock {
+    width: 140px;
+    background-color: reed;
+}
+
+#textright {
+    margin-right: 2px;
+    margin-top: 10px;
+}
+
+.pravoblock {
+    width: 145px;
+    background-color: reed;
+}
+
+#mainbtextpered::before {
+    content: "* ";
+    color: darkviolet;
+}
+
+#posletvor {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 500px;
+    z-index: 0;
+    border: 1px solid black;
+}
+
+
+.chehol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockright1 {
+    margin-right: 20px;
+}
+
+
+
+.item {
+    width: 400px;
+    height: 250px;
+    background-color: #c4b8b7;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.itemphoto {
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.phototext {
+    display: flex;
+    justify-content: space-between;
+    background-color: reed;
+}
+
+.nickname {
+    margin-top: 20px;
+    margin-right: 65px;
+    font-size: 1.7em;
+    margin-left: 10px;
+}
+
+.zvezdi {
+    font-size: 1em;
+    
+}
+
+.samotziv p {
+    font-size: 1.4em;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#mmvp::after {
+    content: " VIP++";
+    color: red;
+}
+
+.chehol1 {
+    max-height: 280px;
+    border: 2px solid #ddd;
+    display: flex;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+/*
+.chehol1::-webkit-scrollbar {
+    width: 0;
+}
+*/
+
+.konec {
+    position: absolute;
+    margin-top: 2900px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 200px;
+}
+
+.copy {
+    font-size: 1.5em;
+}
+
+.konec p {
+    margin-left: 300px;
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
